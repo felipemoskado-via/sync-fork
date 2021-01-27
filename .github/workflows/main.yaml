@@ -2,8 +2,7 @@ name: Syncronize fork with original
 
 on:
   schedule:
-    # Executa a cada 15 minutos
-    - cron:  '*/3 * * * *'
+    - cron: "*/5 * * * *"
 
 jobs:
   sync:
