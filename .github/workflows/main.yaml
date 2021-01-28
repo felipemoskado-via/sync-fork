@@ -11,7 +11,7 @@ jobs:
       - uses: TobKed/github-forks-sync-action@master
         with:
           github_token: ${{ secrets.PERSONAL_TOKEN }}
-          upstream_repository: felipemoskado/sync-fork/
+          upstream_repository: felipemoskado/sync-fork
           upstream_branch: main
           target_branch: main
           tags: true
