@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git
-        run: apt install git-all -y
+        run: sudo apt-get install git-all -y
       
       - name: Update branch main
         run: |
