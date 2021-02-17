@@ -1,9 +1,5 @@
 name: Syncronize fork with original
 
-on:
-  schedule:
-    - cron: "*/10 * * * *"
-
 jobs:
   sync:
     runs-on: ubuntu-latest
